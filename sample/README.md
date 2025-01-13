@@ -10,8 +10,20 @@ https://www.python.org/downloads/
 python -m pip install Django
 ~~~
 
+### ディレクトリ構成
+sample: サンプルのメイン
+
+polls: プロジェクト名（チュートリアル準拠）
+
+service: MVCモデルとは別に機能を提供(基本的に調査したサンプルはこちらに作成します)
+
 ### チートシート
 サーバーの起動
 ~~~
 python manage.py runserver
 ~~~
+カレントディレクトリをsampleにしてサーバーを起動
+
+localhost/polls/1/
+
+にアクセスすると確認できます。
